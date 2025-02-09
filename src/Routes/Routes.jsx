@@ -6,6 +6,8 @@ import Main from "../Main/Main";
 import Home from "../Pages/Home/Home";
 
 
+
+
 export const router = createBrowserRouter([
     {
       path: "/",
@@ -14,7 +16,9 @@ export const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>
-        }
+        },
+        
+       
       ]
     },
   ]);
