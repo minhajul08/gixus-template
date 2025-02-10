@@ -1,6 +1,7 @@
 import AboutUs from '../AboutUs/AboutUs';
 import Hero from '../Hero/Hero';
 import OurServices from '../OurServices/OurServices';
+import Planning from '../Planing/Planning';
 import Process from '../Process/Process';
 const Home = () => {
     return (
@@ -19,8 +20,11 @@ const Home = () => {
   
         <section id="process" className="h-screen  flex items-center justify-center">
           <Process></Process>
+          
         </section>
-  
+        <section>
+        <Planning></Planning>
+        </section>
         <section id="blog" className="h-screen  flex items-center justify-center">
           <h1 className="text-4xl">Blog Section</h1>
         </section>

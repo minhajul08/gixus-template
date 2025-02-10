@@ -21,7 +21,7 @@ const Process = () => {
     }, []);
 
     return (
-        <div className="grid grid-cols-12 min-h-full w-full mt-3 relative">
+        <div className="grid grid-cols-12 h-[625px] w-full mt-3 relative ">
             {/* year of experience */}
             <div className="grid col-span-6 bg-[#1F2B38] ">
                 <p className="text-9xl font-bold text-blue-600 mx-auto p-20 font-serif">
