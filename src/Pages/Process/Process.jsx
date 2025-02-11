@@ -21,9 +21,9 @@ const Process = () => {
     }, []);
 
     return (
-        <div className="grid grid-cols-12 h-[625px] w-full mt-3 relative ">
+        <div className="grid grid-cols-12 h-[625px] w-full mt-80 lg:mt-3 lg:relative ">
             {/* year of experience */}
-            <div className="grid col-span-6 bg-[#1F2B38] ">
+            <div className="grid col-span-6 bg-[#1F2B38]  ">
                 <p className="text-9xl font-bold text-blue-600 mx-auto p-20 font-serif">
                     26 <span className="block text-4xl items-start text-white">Years of Experience</span>
                 </p>
@@ -52,17 +52,20 @@ const Process = () => {
                     ))}
                 </div>
             </div>
-            <div className="w-5/6 top-80 min-h-screen absolute bg-[#FFFFFF] text-center mx-20 flex lg:p-20 shadow-lg rounded-md">
-                <div className="w-2/5 ">
-                    <h1 className="text-5xl font-bold  ">Building <br /> great future <br /> Together, <br />Be with us</h1>
+            <div className="w-[500px] lg:w-5/6 lg:top-80 lg:min-h-screen lg:absolute bg-[#FFFFFF] text-center mx-5 lg:mx-20 lg:flex lg:p-20 shadow-lg rounded-md border border-red-200 ">
+                <div className="lg:w-3/5 ">
+                    <h1 className="text-2xl lg:text-5xl font-bold mt-10 lg:mt-0">Building <br className="hidden sm:block" /> great future <br className="hidden sm:block"/> Together, <br/>Be with us</h1>
                 </div>
                <div className="w-3/5 p-10 mx-auto">
   {/* Step indicators */}
-  <div className="flex items-center justify-center">
+  <div className="flex flex-col lg:flex-row items-center justify-center ">
     {/* Step 01 */}
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col  items-center">
       <span className="bg-[#D8E7EF] rounded-full w-12 h-12 flex items-center justify-center font-bold">01</span>
       <h3 className="mt-3 font-bold text-center">Information Collection</h3>
+      <p className="w-40 text-sm text-gray-600 lg:hidden">
+      Excuse Deal say over contain performance from comparison new melancholy themselves.
+    </p>
     </div>
 
     <hr className="border border-dashed w-32 border-[#919191]" />
@@ -71,6 +74,9 @@ const Process = () => {
     <div className="flex flex-col items-center">
       <span className="bg-[#D8E7EF] rounded-full w-12 h-12 flex items-center justify-center font-bold">02</span>
       <h3 className="mt-3 font-bold text-center">Projection Report Analysis</h3>
+      <p className="w-40 text-sm text-gray-600 lg:hidden">
+      Excuse Deal say over contain performance from comparison new melancholy themselves.
+    </p>
     </div>
 
     <hr className="border border-dashed w-32 border-[#919191]" />
@@ -79,15 +85,18 @@ const Process = () => {
     <div className="flex flex-col items-center">
       <span className="bg-[#D8E7EF] rounded-full w-12 h-12 flex items-center justify-center font-bold">03</span>
       <h3 className="mt-3 font-bold text-center">Consultation Solution</h3>
+      <p className="w-40 text-sm text-gray-600 lg:hidden">
+      Excuse Deal say over contain performance from comparison new melancholy themselves.
+    </p>
     </div>
   </div>
 
   {/* Descriptions Below */}
-  <div className="flex items-center justify-center gap-20 mt-5 text-center">
-    <p className="w-40 text-sm text-gray-600">
+  <div className="flex  items-center justify-center lg:gap-20 mt-5 text-center">
+    <p className="w-40 text-sm text-gray-600 ">
       Excuse Deal say over contain performance from comparison new melancholy themselves.
     </p>
-    <p className="w-40 text-sm text-gray-600">
+    <p className="w-40 text-sm text-gray-600 ">
       Excuse Deal say over contain performance from comparison new melancholy themselves.
     </p>
     <p className="w-40 text-sm text-gray-600">

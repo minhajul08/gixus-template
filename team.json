@@ -1,0 +1,35 @@
+{
+    "teamMembers": [
+      {
+        "image": "https://i.ibb.co.com/XZtvJbD1/2.jpg",
+        "name": "Aleesha Brown",
+        "role": "CEO & Founder"
+      },
+      {
+        "image": "https://i.ibb.co.com/hRPNb681/3.jpg",
+        "name": "Kevin Martin",
+        "role": "Product Manager"
+      },
+      {
+        "image": "https://i.ibb.co.com/WNYyf4cs/4.jpg",
+        "name": "Sarah Albert",
+        "role": "Financial Consultant"
+      },
+      {
+        "image": "https://i.ibb.co.com/jPBXjmNg/7.jpg",
+        "name": "Jessica Lee",
+        "role": "Marketing Head"
+      },
+      {
+        "image": "https://i.ibb.co.com/cXNY9BZF/6.jpg",
+        "name": "Daniel Craig",
+        "role": "Lead Developer"
+      },
+      {
+        "image": "https://i.ibb.co.com/spd52xw5/9.jpg",
+        "name": "Sophia Patel",
+        "role": "HR Manager"
+      }
+    ]
+  }
+  
