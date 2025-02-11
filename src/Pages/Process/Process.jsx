@@ -21,18 +21,18 @@ const Process = () => {
     }, []);
 
     return (
-        <div className="grid grid-cols-12 h-[625px] w-full mt-80 lg:mt-3 lg:relative ">
+        <div className="grid lg:grid-cols-12 h-[625px] w-full mt-4 lg:mt-3 lg:relative mx-5 lg:mx-0">
             {/* year of experience */}
-            <div className="grid col-span-6 bg-[#1F2B38]  ">
-                <p className="text-9xl font-bold text-blue-600 mx-auto p-20 font-serif">
-                    26 <span className="block text-4xl items-start text-white">Years of Experience</span>
+            <div className="grid col-span-6 bg-[#1F2B38]  mt-2 lg:mt-0">
+                <p className="text-9xl font-bold text-blue-600  p-5 lg:p-20 font-serif text-center ">
+                    26 <span className="block text-4xl lg:items-start text-white">Years of Experience</span>
                 </p>
 
 
             </div>
             {/* progress bar */}
-            <div className="bg-[#F7F7F7] grid col-span-6">
-                <div className="flex justify-center gap-10">
+            <div className="bg-[#F7F7F7] grid col-span-6 mt-1 p-2 lg:mt-2">
+                <div className="lg:flex justify-center gap-10 space-y-4 lg:space-y-0">
                     {skills.map((skill, index) => (
                         <div key={index} className="flex flex-col items-center">
                             <div className="w-24 h-24 lg:mt-28 font-bold font-serif">
@@ -52,9 +52,9 @@ const Process = () => {
                     ))}
                 </div>
             </div>
-            <div className="w-[500px] lg:w-5/6 lg:top-80 lg:min-h-screen lg:absolute bg-[#FFFFFF] text-center mx-5 lg:mx-20 lg:flex lg:p-20 shadow-lg rounded-md border border-red-200 ">
+            <div className="w-full lg:w-5/6 lg:top-80 lg:min-h-screen lg:absolute bg-[#FFFFFF] text-center  mx-3 lg:mx-20 lg:flex p-8 lg:p-20 shadow-lg rounded-md ">
                 <div className="lg:w-3/5 ">
-                    <h1 className="text-2xl lg:text-5xl font-bold mt-10 lg:mt-0">Building <br className="hidden sm:block" /> great future <br className="hidden sm:block"/> Together, <br/>Be with us</h1>
+                    <h1 className="text-2xl lg:text-5xl font-bold ">Building <br className="hidden sm:block" /> great future <br className="hidden sm:block"/> Together, <br/>Be with us</h1>
                 </div>
                <div className="w-3/5 p-10 mx-auto">
   {/* Step indicators */}
@@ -68,7 +68,7 @@ const Process = () => {
     </p>
     </div>
 
-    <hr className="border border-dashed w-32 border-[#919191]" />
+    <hr className="border border-dashed w-32 border-[#919191] my-3 lg:my-0"  />
 
     {/* Step 02 */}
     <div className="flex flex-col items-center">
@@ -79,7 +79,7 @@ const Process = () => {
     </p>
     </div>
 
-    <hr className="border border-dashed w-32 border-[#919191]" />
+    <hr className="border border-dashed w-32 border-[#919191] my-3 lg:my-0" />
 
     {/* Step 03 */}
     <div className="flex flex-col items-center">
@@ -92,7 +92,7 @@ const Process = () => {
   </div>
 
   {/* Descriptions Below */}
-  <div className="flex  items-center justify-center lg:gap-20 mt-5 text-center">
+  <div className="hidden lg:flex  items-center justify-center lg:gap-20 mt-5 text-center ">
     <p className="w-40 text-sm text-gray-600 ">
       Excuse Deal say over contain performance from comparison new melancholy themselves.
     </p>

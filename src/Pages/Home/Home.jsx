@@ -7,32 +7,32 @@ import TeamMember from '../TeamMember/TeamMember';
 const Home = () => {
     return (
       <div className="pt-2">
-        <section id="home" className="h-screen  flex items-center justify-center">
+        <section id="home" className="lg:h-screen  flex items-start lg:items-center lg:justify-center">
           <Hero></Hero>
         </section>
   
-        <section id="about" className="h-screen  flex items-center justify-center">
+        <section id="about" className="lg:h-screen  flex items-start lg:items-center lg:justify-center">
           <AboutUs></AboutUs>
         </section>
   
-        <section id="services" className="h-screen flex items-center justify-center">
+        <section id="services" className="lg:h-screen flex items-start lg:items-center lg:justify-center">
           <OurServices></OurServices>
         </section>
   
-        <section id="process" className="h-screen  flex items-center justify-center">
+        <section id="process" className="lg:h-screen  flex items-start lg:items-center lg:justify-center">
           <Process></Process>
           
         </section>
         <section>
         <Planning></Planning>
         </section>
-        <section id="blog" className="h-screen  flex items-center justify-center">
+        <section id="blog" className="flex items-start lg:items-center lg:justify-center">
           <TeamMember></TeamMember>
         </section>
   
-        <section id="contact" className="h-screen flex items-center justify-center">
+        {/* <section id="contact" className="h-screen flex items-center justify-center">
           <h1 className="text-4xl">Contact Section</h1>
-        </section>
+        </section> */}
       </div>
     );
   };

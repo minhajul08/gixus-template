@@ -28,9 +28,9 @@ const OurServices = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="container mx-auto px-4 py-10">
-      <div className="text-center space-y-5 pt-40 lg:pt-0">
-        <p className="text-lg sm:text-xl font-semibold uppercase bg-[#D8E7EF] w-40 py-1 sm:py-2 mx-auto">
+    <div className="container mx-auto px-4 mt-2 ">
+      <div className="text-center space-y-5  ">
+        <p className="text-lg sm:text-xl font-semibold uppercase bg-[#D8E7EF] w-40 py-1 sm:py-2 mx-auto ">
           Our services
         </p>
         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
@@ -38,7 +38,7 @@ const OurServices = () => {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-4 sm:gap-2 justify-center mt-10 ">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-2 justify-center mt-5 lg:mt-10 ">
         {cards.map((card, index) => (
           <div
             key={index}

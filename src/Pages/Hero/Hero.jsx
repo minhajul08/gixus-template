@@ -22,7 +22,7 @@ const Hero = () => {
         {/* Slide 1 */}
         <SwiperSlide>
           <div
-            className="h-full bg-cover bg-center flex items-center justify-center relative"
+            className="h-full  bg-center flex items-center justify-center relative bg-cover"
             style={{ backgroundImage: `url(${img1})` }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -30,7 +30,7 @@ const Hero = () => {
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Elevate Your Business with Gixus
               </h1>
-              <p className="text-lg md:text-xl mt-4 max-w-2xl mx-auto">
+              <p className="text-xl md:text-xl mt-4 max-w-2xl mx-auto">
                 Innovative solutions and expert consulting to help you scale and succeed.
               </p>
               <div className="mt-6 space-x-4">

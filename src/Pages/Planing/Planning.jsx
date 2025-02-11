@@ -2,11 +2,12 @@ import img1 from '../../assets/aboutus/3.jpg'
 
 const Planning = () => {
     return (
-       <div className="bg-slate-200  mt-[330px] p-20 min-h-screen lg:flex gap-20 ">
+       <div className="bg-slate-200  mt-[740px] lg:mt-[315px] p-10 min-h-screen lg:flex gap-20 ">
          <div
-        className="hero lg:w-[450px] h-5/5 items-center rounded-br-[5px] mt-[400px]  lg:mt-0"
+        className="hero  lg:w-[450px] h-5/5 items-center rounded-br-[5px]   lg:mt-0"
         style={{
             backgroundImage: `url(${img1})`,
+           
         }}>
         <div className="hero-overlay bg-opacity-60 rounded-br-[5px]"></div>
         <div className="hero-content text-neutral-content text-center">
