@@ -30,9 +30,7 @@ const Home = () => {
           <TeamMember></TeamMember>
         </section>
   
-        {/* <section id="contact" className="h-screen flex items-center justify-center">
-          <h1 className="text-4xl">Contact Section</h1>
-        </section> */}
+        
       </div>
     );
   };

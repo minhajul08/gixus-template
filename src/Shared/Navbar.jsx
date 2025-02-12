@@ -43,8 +43,8 @@ const Navbar = () => {
           <button onClick={() => scrollToSection("home")} className="block px-6 py-2 hover:bg-gray-100">Home</button>
           <button onClick={() => scrollToSection("about")} className="block px-6 py-2 hover:bg-gray-100">About</button>
           <button onClick={() => scrollToSection("services")} className="block px-6 py-2 hover:bg-gray-100">Services</button>
-          <button onClick={() => scrollToSection("projects")} className="block px-6 py-2 hover:bg-gray-100">Projects</button>
-          <button onClick={() => scrollToSection("blog")} className="block px-6 py-2 hover:bg-gray-100">Blog</button>
+          <button onClick={() => scrollToSection("process")} className="block px-6 py-2 hover:bg-gray-100">Process</button>
+          <button onClick={() => scrollToSection("blog")} className="block px-6 py-2 hover:bg-gray-100">Team</button>
           <button onClick={() => scrollToSection("contact")} className="block px-6 py-2 hover:bg-gray-100">Contact</button>
         </div>
       )}
